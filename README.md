@@ -86,22 +86,10 @@ java -jar projeadi.jar
 
 ---
 
-## 📚 Öğrendiklerim
-
-- Java'da dosya işlemleri (BufferedReader, FileReader kullanımı)
-- OOP yapısında sınıf tasarlama ve yönetim
-- Simülasyon mantığı ve zamana bağlı olayların modellenmesi
-- `.jar` dosyası oluşturma ve dışarıdan veri okuma
-- Konsol ekran yönetimi (temizleme gibi)
-
----
-
 ## ⚠️ Önemli Notlar
 
 - Projede her gezegen için farklı saat düzeni başarıyla desteklenmektedir.
-- Kodlar baştan sona yorum satırları ve açıklamalarla desteklenmiştir.
 - `.jar` dosyası ve txt dosyaları aynı klasörde olmalıdır.
-- Rapor detaylı ve özgün bir şekilde hazırlanmıştır.
 
 ---
 
