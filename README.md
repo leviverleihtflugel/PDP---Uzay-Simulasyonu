@@ -1,67 +1,45 @@
-🚀 Uzay Kolonileştirme Simülasyonu (PDP Projesi)
-Bu proje, farklı gezegenler arasında yolculuk yapan uzay araçlarının ve gezegenlerdeki yaşamın simülasyonunu gerçekleştirmektedir.
-Kişilerin ömürlerinin takibi, araçların hareketleri, gezegenlerdeki zamanın ilerlemesi ve imha durumları detaylı şekilde yönetilmektedir.
+🖥️ Kurulum ve Çalıştırma Adımları
+1. Java Kurulumu
+Java 17 JDK sürümünü indirip kurmanız gerekir.
 
-📂 Proje Yapısı
-python
-Kopyala
-Düzenle
-G221210370/
-├── src/                 # Java kaynak kodları
-├── bin/                 # Derlenmiş sınıf dosyaları
-├── dist/                # Çalıştırılabilir .jar dosyası
-├── Araclar.txt          # Araç bilgileri
-├── Gezegenler.txt       # Gezegen bilgileri
-├── Kisiler.txt          # Kişi bilgileri
-├── .classpath           # Eclipse proje ayar dosyası
-├── .project             # Eclipse proje ayar dosyası
-└── Rapor.pdf            # Ödev raporu
-🛠️ Kullanılan Teknolojiler
-Java 17
-
-Eclipse IDE 2023-12
-
-Windows 11 (konsol temizleme destekli)
-
-📜 Çalıştırma Talimatları
-Bu projeyi Eclipse veya bir Java IDE'sine import edin.
-
-src/ klasöründe yer alan pdp.Simulasyon sınıfını çalıştırabilirsiniz.
-
-Veya terminal/komut satırında dist klasörüne girip .jar dosyasını çalıştırın:
+Kurulumdan sonra terminale java -version yazarak doğru yüklendiğini kontrol edebilirsiniz.
 
 bash
 Kopyala
 Düzenle
-cd dist
+java -version
+2. Eclipse IDE Kurulumu
+Eclipse IDE sitesinden Eclipse IDE for Java Developers sürümünü indirip kurun.
+
+Eclipse ilk açılışta bir workspace (çalışma alanı) seçmenizi ister.
+
+3. Projeyi Eclipse'e Import Etmek
+Eclipse → File > Import > Existing Projects into Workspace seçeneğini seçin.
+
+"Root Directory" olarak proje klasörünüzü (G221210370) gösterin.
+
+Proje başarıyla eklenecektir.
+
+4. Projeyi Eclipse Üzerinden Çalıştırmak
+src klasöründen pdp.Simulasyon dosyasını bulun.
+
+Sağ tıklayıp Run As > Java Application seçeneğiyle çalıştırabilirsiniz.
+
+5. Jar Dosyasından Çalıştırmak (Konsoldan)
+dist klasörü altında projeadi.jar dosyası bulunmalıdır.
+
+Terminal veya Komut İstemi'ni (cmd) açın.
+
+dist klasörüne girin:
+
+bash
+Kopyala
+Düzenle
+cd yol\G221210370\dist
+Ardından çalıştırın:
+
+bash
+Kopyala
+Düzenle
 java -jar projeadi.jar
-Not: .jar çalıştırıldığında konsolu temizler ve simülasyonu düzgün şekilde başlatır.
-
-🎯 Projede Gerçekleştirilen İşlemler
-Dosyalardan (txt) gezegen, araç ve kişi bilgileri okundu.
-
-Gezegenlerde zaman ilerlemesi simüle edildi.
-
-Uzay araçlarının çıkış tarihi geldiğinde hareket etmeleri sağlandı.
-
-Araçların hedefe ulaşıp ulaşmadığı ve imha olup olmadığı kontrol edildi.
-
-Nüfus değişimleri doğru şekilde hesaplandı.
-
-Konsol ekranı düzenli olarak temizlendi.
-
-Tüm araçlar hedefe ulaştığında veya imha olduğunda simülasyon sonlandı.
-
-📚 Öğrendiklerim
-Java'da dosya okuma-yazma işlemleri
-
-OOP (Nesne Yönelimli Programlama) mantığı
-
-Zaman ilerlemesi ve tarih yönetimi
-
-Konsol uygulamaları için kullanıcı deneyimi artırma
-
-.jar dosyası oluşturma ve çalıştırma
-
-⚠️ Önemli Not
-Bu proje bireysel ödev kapsamında hazırlanmıştır. Başkaları tarafından izinsiz kopyalanması yasaktır.
+Not: Program çalıştığında ekranı temizleyecek ve simülasyonu başlatacaktır.
