@@ -105,4 +105,4 @@ java -jar projeadi.jar
 
 ---
 
-# 📋 Projeyi Çalıştırmak için Gerekli Her Şy Tamam!
+# 📋 Projeyi Çalıştırmak için Gerekli Her Şey Tamam!
